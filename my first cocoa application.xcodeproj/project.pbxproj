@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9251F871B23E84100277EBE /* a.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251F861B23E84100277EBE /* a.swift */; };
+		C939AF291B1852B100814C13 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C939AF281B1852B100814C13 /* GLUT.framework */; };
+		C94013DD1B29DD0B00BD91FA /* myopenglview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94013DC1B29DD0B00BD91FA /* myopenglview.swift */; };
+		C942F5891B162B87005F4228 /* hsinchu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C942F5881B162B87005F4228 /* hsinchu.xib */; };
+		C942F58C1B1634E0005F4228 /* worldmapcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C942F58A1B1634E0005F4228 /* worldmapcontroller.swift */; };
+		C942F58D1B1634E0005F4228 /* worldmapcontroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = C942F58B1B1634E0005F4228 /* worldmapcontroller.xib */; };
+		C9444F911B06469900FE23D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9444F901B06469900FE23D6 /* AppDelegate.swift */; };
+		C95775211971FAA200EED698 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95775201971FAA200EED698 /* main.swift */; };
+		C95775251971FAA200EED698 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C95775241971FAA200EED698 /* Images.xcassets */; };
+		C95775281971FAA200EED698 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C95775261971FAA200EED698 /* MainMenu.xib */; };
+		C95775341971FAA300EED698 /* my_first_cocoa_applicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95775331971FAA300EED698 /* my_first_cocoa_applicationTests.swift */; };
+		C98393D51B1719E700127C1D /* hsinchu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98393D41B1719E700127C1D /* hsinchu.swift */; };
+		C9ABA8381AFCA3E500ED87A9 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9ABA8371AFCA3E500ED87A9 /* OpenGL.framework */; };
+		C9ABA83A1AFCA3FB00ED87A9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9ABA8391AFCA3FB00ED87A9 /* Cocoa.framework */; };
+		C9D1391C1B06601F0020902E /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D1391B1B06601F0020902E /* GLKit.framework */; };
+		C9D139221B06641E0020902E /* openglview.mm in Sources */ = {isa = PBXBuildFile; fileRef = C9D139211B06641E0020902E /* openglview.mm */; };
+		C9E6565F1B32DF47004CE447 /* symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E6565E1B32DF47004CE447 /* symbol.swift */; };
+		C9E9E4591B1CBF1100229937 /* green.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E9E4581B1CBF1100229937 /* green.swift */; };
+		C9E9E45B1B1CBF1E00229937 /* green.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9E9E45A1B1CBF1E00229937 /* green.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C957752E1971FAA300EED698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C95775131971FAA200EED698 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C957751A1971FAA200EED698;
+			remoteInfo = "my first cocoa application";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9251F861B23E84100277EBE /* a.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = a.swift; path = ../../../test/test/a.swift; sourceTree = "<group>"; };
+		C939AF281B1852B100814C13 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		C94013DC1B29DD0B00BD91FA /* myopenglview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myopenglview.swift; sourceTree = "<group>"; };
+		C941196A1B2AFA5A003F29DC /* allmaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = allmaps.h; path = ../../../../Downloads/allmaps.h; sourceTree = "<group>"; };
+		C942F5881B162B87005F4228 /* hsinchu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = hsinchu.xib; sourceTree = "<group>"; };
+		C942F58A1B1634E0005F4228 /* worldmapcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = worldmapcontroller.swift; sourceTree = "<group>"; };
+		C942F58B1B1634E0005F4228 /* worldmapcontroller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = worldmapcontroller.xib; sourceTree = "<group>"; };
+		C9444F901B06469900FE23D6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C957751B1971FAA200EED698 /* my first cocoa application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my first cocoa application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C957751F1971FAA200EED698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C95775201971FAA200EED698 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C95775241971FAA200EED698 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C95775271971FAA200EED698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C957752D1971FAA300EED698 /* my first cocoa applicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "my first cocoa applicationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95775321971FAA300EED698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C95775331971FAA300EED698 /* my_first_cocoa_applicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my_first_cocoa_applicationTests.swift; sourceTree = "<group>"; };
+		C98393D41B1719E700127C1D /* hsinchu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hsinchu.swift; sourceTree = "<group>"; };
+		C9ABA8371AFCA3E500ED87A9 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		C9ABA8391AFCA3FB00ED87A9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C9B378E91B0EDAF600103BFB /* SwiftObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftObjC-Bridging-Header.h"; sourceTree = "<group>"; };
+		C9B6BFC61B06CA7E00A42F8F /* openglview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = openglview.h; sourceTree = "<group>"; };
+		C9D1391B1B06601F0020902E /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		C9D139211B06641E0020902E /* openglview.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = openglview.mm; sourceTree = "<group>"; };
+		C9E6565E1B32DF47004CE447 /* symbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = symbol.swift; sourceTree = "<group>"; };
+		C9E9E4581B1CBF1100229937 /* green.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = green.swift; sourceTree = "<group>"; };
+		C9E9E45A1B1CBF1E00229937 /* green.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = green.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C95775181971FAA200EED698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C939AF291B1852B100814C13 /* GLUT.framework in Frameworks */,
+				C9D1391C1B06601F0020902E /* GLKit.framework in Frameworks */,
+				C9ABA83A1AFCA3FB00ED87A9 /* Cocoa.framework in Frameworks */,
+				C9ABA8381AFCA3E500ED87A9 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C957752A1971FAA300EED698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C95775121971FAA200EED698 = {
+			isa = PBXGroup;
+			children = (
+				C939AF281B1852B100814C13 /* GLUT.framework */,
+				C9D1391B1B06601F0020902E /* GLKit.framework */,
+				C9ABA8391AFCA3FB00ED87A9 /* Cocoa.framework */,
+				C9ABA8371AFCA3E500ED87A9 /* OpenGL.framework */,
+				C957751D1971FAA200EED698 /* my first cocoa application */,
+				C95775301971FAA300EED698 /* my first cocoa applicationTests */,
+				C957751C1971FAA200EED698 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C957751C1971FAA200EED698 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C957751B1971FAA200EED698 /* my first cocoa application.app */,
+				C957752D1971FAA300EED698 /* my first cocoa applicationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C957751D1971FAA200EED698 /* my first cocoa application */ = {
+			isa = PBXGroup;
+			children = (
+				C95775241971FAA200EED698 /* Images.xcassets */,
+				C95775261971FAA200EED698 /* MainMenu.xib */,
+				C942F58A1B1634E0005F4228 /* worldmapcontroller.swift */,
+				C942F58B1B1634E0005F4228 /* worldmapcontroller.xib */,
+				C9E9E45A1B1CBF1E00229937 /* green.xib */,
+				C9E9E4581B1CBF1100229937 /* green.swift */,
+				C9444F901B06469900FE23D6 /* AppDelegate.swift */,
+				C9E6565E1B32DF47004CE447 /* symbol.swift */,
+				C9251F861B23E84100277EBE /* a.swift */,
+				C98393D41B1719E700127C1D /* hsinchu.swift */,
+				C942F5881B162B87005F4228 /* hsinchu.xib */,
+				C9B378E91B0EDAF600103BFB /* SwiftObjC-Bridging-Header.h */,
+				C94013DC1B29DD0B00BD91FA /* myopenglview.swift */,
+				C9B6BFC61B06CA7E00A42F8F /* openglview.h */,
+				C9D139211B06641E0020902E /* openglview.mm */,
+				C941196A1B2AFA5A003F29DC /* allmaps.h */,
+				C957751E1971FAA200EED698 /* Supporting Files */,
+			);
+			path = "my first cocoa application";
+			sourceTree = "<group>";
+		};
+		C957751E1971FAA200EED698 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C957751F1971FAA200EED698 /* Info.plist */,
+				C95775201971FAA200EED698 /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C95775301971FAA300EED698 /* my first cocoa applicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				C95775331971FAA300EED698 /* my_first_cocoa_applicationTests.swift */,
+				C95775311971FAA300EED698 /* Supporting Files */,
+			);
+			path = "my first cocoa applicationTests";
+			sourceTree = "<group>";
+		};
+		C95775311971FAA300EED698 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C95775321971FAA300EED698 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C957751A1971FAA200EED698 /* my first cocoa application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C95775371971FAA300EED698 /* Build configuration list for PBXNativeTarget "my first cocoa application" */;
+			buildPhases = (
+				C95775171971FAA200EED698 /* Sources */,
+				C95775181971FAA200EED698 /* Frameworks */,
+				C95775191971FAA200EED698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "my first cocoa application";
+			productName = "my first cocoa application";
+			productReference = C957751B1971FAA200EED698 /* my first cocoa application.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C957752C1971FAA300EED698 /* my first cocoa applicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C957753A1971FAA300EED698 /* Build configuration list for PBXNativeTarget "my first cocoa applicationTests" */;
+			buildPhases = (
+				C95775291971FAA300EED698 /* Sources */,
+				C957752A1971FAA300EED698 /* Frameworks */,
+				C957752B1971FAA300EED698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C957752F1971FAA300EED698 /* PBXTargetDependency */,
+			);
+			name = "my first cocoa applicationTests";
+			productName = "my first cocoa applicationTests";
+			productReference = C957752D1971FAA300EED698 /* my first cocoa applicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C95775131971FAA200EED698 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Yen-chin Wang";
+				TargetAttributes = {
+					C957751A1971FAA200EED698 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					C957752C1971FAA300EED698 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = C957751A1971FAA200EED698;
+					};
+				};
+			};
+			buildConfigurationList = C95775161971FAA200EED698 /* Build configuration list for PBXProject "my first cocoa application" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C95775121971FAA200EED698;
+			productRefGroup = C957751C1971FAA200EED698 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C957751A1971FAA200EED698 /* my first cocoa application */,
+				C957752C1971FAA300EED698 /* my first cocoa applicationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C95775191971FAA200EED698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95775251971FAA200EED698 /* Images.xcassets in Resources */,
+				C942F58D1B1634E0005F4228 /* worldmapcontroller.xib in Resources */,
+				C9E9E45B1B1CBF1E00229937 /* green.xib in Resources */,
+				C942F5891B162B87005F4228 /* hsinchu.xib in Resources */,
+				C95775281971FAA200EED698 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C957752B1971FAA300EED698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C95775171971FAA200EED698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E6565F1B32DF47004CE447 /* symbol.swift in Sources */,
+				C9E9E4591B1CBF1100229937 /* green.swift in Sources */,
+				C9444F911B06469900FE23D6 /* AppDelegate.swift in Sources */,
+				C9251F871B23E84100277EBE /* a.swift in Sources */,
+				C94013DD1B29DD0B00BD91FA /* myopenglview.swift in Sources */,
+				C98393D51B1719E700127C1D /* hsinchu.swift in Sources */,
+				C9D139221B06641E0020902E /* openglview.mm in Sources */,
+				C95775211971FAA200EED698 /* main.swift in Sources */,
+				C942F58C1B1634E0005F4228 /* worldmapcontroller.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95775291971FAA300EED698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95775341971FAA300EED698 /* my_first_cocoa_applicationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C957752F1971FAA300EED698 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C957751A1971FAA200EED698 /* my first cocoa application */;
+			targetProxy = C957752E1971FAA300EED698 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C95775261971FAA200EED698 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C95775271971FAA200EED698 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C95775351971FAA300EED698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C95775361971FAA300EED698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C95775381971FAA300EED698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "my first cocoa application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "my first cocoa application/SwiftObjC-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+			};
+			name = Debug;
+		};
+		C95775391971FAA300EED698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "my first cocoa application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "my first cocoa application/SwiftObjC-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+			};
+			name = Release;
+		};
+		C957753B1971FAA300EED698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/my first cocoa application.app/Contents/MacOS/my first cocoa application";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "my first cocoa applicationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		C957753C1971FAA300EED698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/my first cocoa application.app/Contents/MacOS/my first cocoa application";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "my first cocoa applicationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C95775161971FAA200EED698 /* Build configuration list for PBXProject "my first cocoa application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95775351971FAA300EED698 /* Debug */,
+				C95775361971FAA300EED698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C95775371971FAA300EED698 /* Build configuration list for PBXNativeTarget "my first cocoa application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95775381971FAA300EED698 /* Debug */,
+				C95775391971FAA300EED698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C957753A1971FAA300EED698 /* Build configuration list for PBXNativeTarget "my first cocoa applicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C957753B1971FAA300EED698 /* Debug */,
+				C957753C1971FAA300EED698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C95775131971FAA200EED698 /* Project object */;
+}
